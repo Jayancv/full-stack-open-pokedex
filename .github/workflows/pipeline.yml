@@ -40,7 +40,7 @@ jobs:
         uses: JorgeLNJunior/render-deploy@v1.4.5
         with:
           service_id: ${{ secrets.RENDER_SERVICE_ID }}
-          api_key: ${{ secrets.RENDER_API_KEY }}
+          api_key: ${{ secrets.RENDER_API_KEY_DUMMY }}
           wait_deploy: true
       - name: Deployment Success
         uses: Ilshidur/action-discord@master
